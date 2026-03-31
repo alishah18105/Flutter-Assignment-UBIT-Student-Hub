@@ -20,19 +20,21 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       appBar: AppBar(),
       backgroundColor: screenColor,
-      body: Column(
-        children: [
-          Padding(padding: const EdgeInsets.all(8.0), child: CardWidget()),
-          SizedBox(height: 50),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              Text("© 2024 UBIT", style: TextStyle(color: textColor)),
-              Text("Privacy Policy", style: TextStyle(color: textColor)),
-              Text("Terms of Service", style: TextStyle(color: textColor)),
-            ],
-          ),
-        ],
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Padding(padding: const EdgeInsets.all(8.0), child: CardWidget()),
+            SizedBox(height: 50),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Text("© 2024 UBIT", style: TextStyle(color: textColor)),
+                Text("Privacy Policy", style: TextStyle(color: textColor)),
+                Text("Terms of Service", style: TextStyle(color: textColor)),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
