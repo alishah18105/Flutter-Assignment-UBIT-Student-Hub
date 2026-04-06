@@ -101,5 +101,3 @@ Course Assignment – Flutter Development
 This is an academic project, but suggestions and improvements are welcome!
 
 ---
-
-I
