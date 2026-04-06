@@ -1,16 +1,105 @@
-# university_student_hub
+---
 
-A new Flutter project.
+# 📱 UBIT Student Hub
 
-## Getting Started
+UBIT Student Hub is a Flutter mobile application that serves as a centralized platform for university students, offering campus updates, a marketplace, and profile management — all in one place.
 
-This project is a starting point for a Flutter application.
+This project was developed as part of a Flutter course assignment, focusing on clean architecture, state management, and reusable UI components.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* 🔐 **Authentication**
+
+  * Login with validation
+  * Password visibility toggle
+  * Remember Me option
+
+* 🏠 **Dashboard**
+
+  * Welcome section
+  * Campus news feed
+  * Featured news cards
+  * Bottom navigation
+
+* 🛒 **Marketplace**
+
+  * Product grid layout
+  * Search & filter options
+  * Custom product cards
+  * Sell item button
+
+* 👤 **Profile Portal**
+
+  * Editable profile form
+  * Dropdown selections
+  * Gender selection
+  * Profile strength indicator
+
+* 📂 **Drawer & Logout**
+
+  * Navigation drawer
+  * Logout confirmation dialog
+  * Secure navigation handling
+
+---
+
+## 🛠️ Tech Stack
+
+* Flutter (Dart)
+* Stateful & Stateless Widgets
+* Form Validation
+* Navigation & Routing
+* Custom Widgets
+* Mock Data
+
+---
+
+## 📸 Screens
+
+> UI based on provided Figma design
+
+---
+
+## 🎯 Learning Objectives
+
+* Build scalable Flutter UI
+* Implement state management
+* Create reusable components
+* Handle forms and validation
+* Work with complex layouts (GridView, ListView, TabBar)
+
+---
+
+## ⚙️ Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/your-repo-name.git
+
+# Go to project directory
+cd your-repo-name
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
+```
+
+---
+
+## 📌 Project Type
+
+Course Assignment – Flutter Development
+
+---
+
+## 🤝 Contribution
+
+This is an academic project, but suggestions and improvements are welcome!
+
+---
+
+I
